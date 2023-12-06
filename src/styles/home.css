@@ -1,0 +1,180 @@
+.banner-logo {
+    width: 100%;
+    height: 500px;
+}
+
+.banner-first-title {
+    position: absolute;
+    top: 200px;
+    color: white;
+    left: 160px;
+    font-size: 32px;
+}
+
+.banner-main-title {
+    position: absolute;
+    top: 280px;
+    color: white;
+    left: 160px;
+    font-size: 46px;
+    text-align: left;
+}
+
+.register-button {
+    position: absolute;
+    top: 400px;
+    left: 160px;
+}
+
+.btn-primary {
+    padding: 8px 20px !important;
+}
+
+.register-button .btn-primary:hover {
+    background: white;
+    color: black;
+    font-weight: 500;
+}
+
+.home-page-service-section {
+    background: rgb(241 236 236);
+}
+
+.service-title-section h6{
+    color: #ed4b32 !important;
+    font-size: 24px !important;
+    padding-top: 100px !important;
+}
+
+.home-page-service-section h1{
+    font-weight: bold;
+    padding-bottom: 100px ;
+}
+
+.service-cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top{
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.card-body{
+    margin: 5px !important;
+    padding: 0 !important;
+}
+
+.card-body h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    /* width: 70%; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 12px;
+    transition: all .40s;
+}
+
+.layer:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 0%, #191919);
+}
+
+.layer h3 {
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--bg-color);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .40s;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.layer a {
+    color: white;
+}
+
+.layer:hover h3 {
+    bottom: 55%;
+    opacity: 1;
+}
+
+.layer h5 {
+    top: 100px;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--bg-color);
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .40s;
+    width: 100%;
+    position: absolute;
+}
+
+.layer h4 {
+    position: absolute;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--bg-color);
+    /* bottom: 79px; */
+    left: 23%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all .40s;
+    top: 250px;
+}
+
+.layer:hover h4 {
+    bottom: 40%;
+    opacity: 1;
+}
+
+.layer:hover h5 {
+    bottom: 40%;
+    opacity: 1;
+}
+
+  
+.description{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 37px;
+    left: 0px;
+    margin: 25px;
+}
+
+.details{
+    margin: 25px;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+}
+
+.read-more{
+    color: white;
+    margin: 0 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.we-are-prayer-description{
+    color: black;
+    text-align: center;
+}
