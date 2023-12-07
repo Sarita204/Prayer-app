@@ -2,15 +2,11 @@ import React from "react";
 import "../styles/navbar.css";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-
 import logo from "../images/logo.png";
 import calling from "../images/calling.png";
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const handleClick = () => setClick(!click);
-    const [isNavExpanded, setIsNavExpanded] = useState(false);
-
 
     return (
         <div>

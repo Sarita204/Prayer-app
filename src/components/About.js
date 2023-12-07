@@ -41,18 +41,18 @@ function About() {
             </div>
 
             <div className='our-mission-vision-card'>
-                <div class="card" style={{ width: "22rem", border: "none" }}>
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted" className='about-card-subtitle'>OUR MISSION & VISION</h6>
-                        <h5 class="card-title" className='about-card-title'>BELIVES IN LORD RAMA AND <br></br>VISHNU DEVA</h5>
-                        <p class="card-text" className='about-card-tagline'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                <div className="card" style={{ width: "22rem", border: "none" }}>
+                    <div className="card-body">
+                        <h6 className='about-card-subtitle'>OUR MISSION & VISION</h6>
+                        <h5 className='about-card-title'>BELIVES IN LORD RAMA AND <br></br>VISHNU DEVA</h5>
+                        <p className='about-card-tagline'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
                     </div>
                 </div>
-                <div class="card" style={{ width: "22rem", border: "none" }}>
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted" className='about-card-right-subtitle'>WHAT WE DO</h6>
-                        <h5 class="card-title" className='about-card-right-title'>OUR VOLUNTEERS ACHIEVMENTS</h5>
-                        <p class="card-text" className='about-card-right-tagline'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                <div className="card" style={{ width: "22rem", border: "none" }}>
+                    <div className="card-body">
+                        <h6 className='about-card-right-subtitle'>WHAT WE DO</h6>
+                        <h5 className='about-card-right-title'>OUR VOLUNTEERS ACHIEVMENTS</h5>
+                        <p className='about-card-right-tagline'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
                     </div>
                 </div>
             </div>
@@ -64,35 +64,34 @@ function About() {
                 </div>
 
                 <div className='benefit-cards'>
-                <div className='benefit-card-components'>
-                    <div className='content-caontainer'>
-                        <h5 class="card-title" className='about-card-title'>DONATE EVENTS</h5>
-                        <p class="card-text" className='about-card-tagline'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
-                    </div>
-                    <div className='image-caontainer'>
-                        <img src={benefitimg1} alt="logo" className='benefit-images' />
-                    </div>
+                    <div className='benefit-card-components'>
+                        <div className='content-caontainer'>
+                            <h5 className='about-card-title'>DONATE EVENTS</h5>
+                            <p className='about-card-tagline'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                        </div>
+                        <div className='image-caontainer'>
+                            <img src={benefitimg1} alt="logo" className='benefit-images' />
+                        </div>
 
-                </div>
-                <div className='benefit-card-components'>
-                <div className='image-caontainer'>
-                        <img src={benefitimg2} alt="logo" className='benefit-images' />
                     </div>
-                    <div className='content-caontainer'>
-                        <h5 class="card-title" className='about-card-title' style={{textAlign:"justify"}}>ALL ARE WELCOME</h5>
-                        <p class="card-text" className='about-card-tagline' style={{textAlign:"justify"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
-                    </div>               
-                </div>
-                <div className='benefit-card-components'>
-                    <div className='content-caontainer'>
-                        <h5 class="card-title" className='about-card-title'>FIND FULFILLMENT AND JOY</h5>
-                        <p class="card-text" className='about-card-tagline'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                    <div className='benefit-card-components'>
+                        <div className='image-caontainer'>
+                            <img src={benefitimg2} alt="logo" className='benefit-images' />
+                        </div>
+                        <div className='content-caontainer'>
+                            <h5 className='about-card-title' style={{ textAlign: "justify" }}>ALL ARE WELCOME</h5>
+                            <p className='about-card-tagline' style={{ textAlign: "justify" }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                        </div>
                     </div>
-                    <div className='image-caontainer'>
-                        <img src={benefitimg3} alt="logo" className='benefit-images' />
+                    <div className='benefit-card-components'>
+                        <div className='content-caontainer'>
+                            <h5 className='about-card-title'>FIND FULFILLMENT AND JOY</h5>
+                            <p className='about-card-tagline'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum</p>
+                        </div>
+                        <div className='image-caontainer'>
+                            <img src={benefitimg3} alt="logo" className='benefit-images' />
+                        </div>
                     </div>
-
-                </div>
                 </div>
             </div>
         </div>

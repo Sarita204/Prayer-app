@@ -16,8 +16,8 @@ import g10 from "../images/g10.png"
 import g11 from "../images/g11.png"
 import g12 from "../images/g12.png"
 
-function Gallary(){
-    return(
+function Gallary() {
+    return (
         <div>
             <div className="banner-logo-section" >
                 <img src={gallarybanner} alt="logo" className="banner-logo" />
@@ -26,52 +26,52 @@ function Gallary(){
             </div>
 
             <div className="service-cards">
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
-                        <img src={g1} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px"}}>
-                        <img src={g2} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
-                        <img src={g3} className="card-img-top" alt="..." />
-                    </div>
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g1} className="card-img-top" alt="..." />
                 </div>
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g2} className="card-img-top" alt="..." />
+                </div>
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g3} className="card-img-top" alt="..." />
+                </div>
+            </div>
 
-                <div className="service-cards">
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
-                        <img src={g4} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px"}}>
-                        <img src={g5} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
-                        <img src={g6} className="card-img-top" alt="..." />
-                    </div>
+            <div className="service-cards">
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g4} className="card-img-top" alt="..." />
                 </div>
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g5} className="card-img-top" alt="..." />
+                </div>
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g6} className="card-img-top" alt="..." />
+                </div>
+            </div>
 
-                <div className="service-cards">
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
-                        <img src={g7} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px"}}>
-                        <img src={g8} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
-                        <img src={g9} className="card-img-top" alt="..." />
-                    </div>
+            <div className="service-cards">
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g7} className="card-img-top" alt="..." />
                 </div>
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g8} className="card-img-top" alt="..." />
+                </div>
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g9} className="card-img-top" alt="..." />
+                </div>
+            </div>
 
-                <div className="service-cards">
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
-                        <img src={g10} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px"}}>
-                        <img src={g11} className="card-img-top" alt="..." />
-                    </div>
-                    <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
-                        <img src={g12} className="card-img-top" alt="..." />
-                    </div>
+            <div className="service-cards">
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g10} className="card-img-top" alt="..." />
                 </div>
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g11} className="card-img-top" alt="..." />
+                </div>
+                <div className="card" style={{ width: "20rem", margin: "10px", height: "400px" }}>
+                    <img src={g12} className="card-img-top" alt="..." />
+                </div>
+            </div>
         </div>
     );
 }

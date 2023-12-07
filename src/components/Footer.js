@@ -41,7 +41,6 @@ function Footer() {
         <div className="footer">
             <div className="col-1">
                 <h3> About Us</h3>
-
                 <div className="footer-description">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s </p>
                 </div>
@@ -113,13 +112,14 @@ function Footer() {
                     your inbox!
                 </h3>
                 <form className="search-bar" ref={form} onSubmit={sendEmail}>
-                    <input type="email" placeholder="Email" name="email" className="search-input"  />
+                    <input type="email" placeholder="Email" name="email" className="search-input" />
                 </form>
                 <button type="submit" width="100%" className="subscribe-button">
-                        {" "}
-                        Subscribe
-                    </button>
+                    {" "}
+                    Subscribe
+                </button>
             </div>
-        </div>);
+        </div>
+            );
 }
 export default Footer;
