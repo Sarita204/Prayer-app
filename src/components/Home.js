@@ -103,7 +103,7 @@ function Home() {
                                     </h5>
                             
                                     <h4>
-                                        <a href="/" className="read-more">Read More...</a>
+                                        <a href="/service" className="read-more">Read More...</a>
                                     </h4>
                                 </div>
                             </div>
