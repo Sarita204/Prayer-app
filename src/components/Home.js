@@ -10,7 +10,7 @@ import pooja from "../images/pooja.png";
 import img1 from "../images/img1.png";
 import img2 from "../images/img2.png";
 import img3 from "../images/img3.png";
-
+import vedio from "../images/vedio.png"
 function Home() {
     return (
         <div className="banner-component">
@@ -236,7 +236,7 @@ function Home() {
                             </div>
                         </div> 
 
-                        <div cclassNamelass="card" style={{ width: "16rem", margin:"10px" ,height:"380px"}}>
+                        <div className="card" style={{ width: "16rem", margin:"10px" ,height:"380px"}}>
                             <img src={prasada} className="card-img-top" alt="..." />
                             <div className="card-body">
                                 <h5 className="card-title">Prasada</h5>
@@ -249,10 +249,17 @@ function Home() {
                                     </h5>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
+
+                        
                     </div>
 
+
             {/* vedio section */}
+            <div>
+            <img src={vedio} alt="" className="vedio"/>
+
+            </div>
                 </div>
                 </div>
         </div>
