@@ -34,6 +34,7 @@
   display: flex;
   cursor: pointer;
   align-items: center;
+  margin: 0;
 }
 
 .nav-item a {
@@ -52,6 +53,32 @@
   display: flex;
 }
 
+.download-button {
+  background: orange;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid white;
+  color: black;
+  height: 36px;
+  padding: 5px 10px;
+  margin: auto 0px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.download-button p{
+  margin: auto;
+  color: white;
+  font-weight: bold;
+}
+
+
+.download-icon {
+    width: 30px;
+    height: 25px;
+    margin: auto;
+  }
 .call-icon {
   width: 40px;
   height: 40px;
@@ -68,7 +95,7 @@
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
-  top: 6%;
+  top: 10%;
   right: 20px;
   transform: translateY(-50%);
   display: none;
@@ -95,8 +122,15 @@
   padding: 0 20px;
   cursor: pointer;
 }
+.nav-menu ul{
+  margin: auto 0px !important;
+}
 
 @media screen and (max-width: 550px) {
+  .navbar-left-icons {
+    display: none;
+  }
+
   .hamburger {
     display: block;
   }
@@ -111,7 +145,7 @@
     background-color: rebeccapurple;
   }
 
-  .left-icons-container {
+  /* .left-icons-container {
     display: none;
   }
 
@@ -120,16 +154,26 @@
     justify-content: center;
     position: relative;
     top: 15px;
-  }
+  } */
 
   .nav-menu {
     display: none;
+  }
+  
+
+  .navbar-container {
+    display: flex;
+    justify-content: flex-start !important;
+  }
+
+  .nav-logo-container {
+    padding: 0 10px !important;
   }
 
   .navigation-menu ul {
     flex-direction: column;
     position: absolute;
-    top: 50px;
+    top: 90px;
     left: 0;
     width: -webkit-fill-available;
     background-color: #eaeeea;
@@ -161,4 +205,5 @@
     list-style: none;
     padding: 20px;
   }
+
 }

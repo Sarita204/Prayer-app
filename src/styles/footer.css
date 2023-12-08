@@ -77,6 +77,9 @@ li {
   list-style: none;
   text-align: left;
 }
+.col-2, .col-3, ul{
+  padding: 0 !important;
+}
 
 .col-3 li a:hover {
   text-decoration: none;
@@ -89,7 +92,6 @@ li {
 
 .footer-s-icon {
   display: flex;
-  justify-content: right;
   gap: 6px;
 }
 
@@ -102,6 +104,11 @@ li {
   color: orange;
   text-decoration: underline;
   font-size: 20px;
+  line-height:30px;
+}
+.col-1, .col-2, .col-3, .col-4{
+  width: 22% !important;
+  text-align: justify;
 }
 
 .col-4 {
@@ -113,17 +120,42 @@ li {
   text-align: right;
   color: #ffffff;
 }
-
-.search-input {
-  border: none;
-  width: 200px;
-  background: beige;
+.col-1, .col-2, .col-3, .col-4{
+/* border: 1px solid red; */
+text-align: left;
+flex: auto;
 }
 
-.subscribe-button {
-  width: 200px;
-  border: navajowhite;
-  background: #cf8d15;
-  color: white;
-  margin: 5px 0;
+.footer-download-button{
+    float: left;
+    background: orange;
+    display: flex;
+    border: 1px solid white;
+    height: 50px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:550px ){
+  .footer{
+    display: block;
+    padding: 40px 20px !important;
+  }
+  .col-1, .col-2, .col-3, .col-4{
+    width: auto !important;
+    text-align: justify;
+  }
+
+  .col-2 ul, .col-3 ul{
+    padding: 0px;
+  }
+
+  .footer-description p{
+    padding: 12px 0 !important;
+  }
+  .footer-s-icon{
+    justify-content: flex-start;
+  }
 }

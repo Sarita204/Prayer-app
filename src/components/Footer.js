@@ -6,6 +6,7 @@ import fb from "../images/fb.png";
 import instagram from "../images/insta.png";
 import twitter from "../images/twitter.png";
 import linkedin from "../images/linkedin.png";
+import download from "../images/down-arrow.png";
 
 function Footer() {
 
@@ -42,7 +43,7 @@ function Footer() {
             <div className="col-1">
                 <h3> About Us</h3>
                 <div className="footer-description">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s </p>
+                    <p>Lorem Ipsum is simply dummy text of <br></br>the printing and typesetting industry. <br></br>Lorem Ipsum has been the industry’s. </p>
                 </div>
             </div>
             <div className="col-2">
@@ -107,17 +108,17 @@ function Footer() {
             </div>
 
             <div className="col-4">
-                <h3>Get the best viral<br></br>
-                    strories straight into<br></br>
-                    your inbox!
-                </h3>
-                <form className="search-bar" ref={form} onSubmit={sendEmail}>
+            <div className="footer-download-button">
+                    <p>Download App</p>
+                    <img src={download} alt="logo" className="download-icon" /> 
+                </div>
+                {/* <form className="search-bar" ref={form} onSubmit={sendEmail}>
                     <input type="email" placeholder="Email" name="email" className="search-input" />
-                </form>
-                <button type="submit" width="100%" className="subscribe-button">
+                </form> */}
+                {/* <button type="submit" width="100%" className="subscribe-button">
                     {" "}
                     Subscribe
-                </button>
+                </button> */}
             </div>
         </div>
             );
