@@ -13,6 +13,18 @@ function Navbar() {
 
     return (
         <div>
+            <div className="top-nav-container">
+                <div className="top-navbar">
+                    <div className="navbar-left-icons">
+                    <img src={calling} alt="logo" className="call-icon" /> <p style={{ color: "white", margin:"auto" }}>+ (111) 1000-500-800</p>
+                     </div>
+
+                     {/* <div className="navbar-left-icons">
+                    <img src={calling} alt="logo" className="call-icon" /> <p style={{ color: "white", margin:"auto" }}>+ (111) 1000-500-800</p>
+                     </div> */}
+
+                </div>
+                </div>
             <header className="navbar-container">
                 <div className="nav-logo-container">
                     <img src={logo} alt="logo" className="navbar-logo" />
@@ -22,33 +34,39 @@ function Navbar() {
                         <NavLink to="/" className="nav-links">
                             Home
                         </NavLink>{" "}
+                        {/* <hr></hr> */}
                     </li>
+                    
 
                     <li className="nav-item">
                         <NavLink to="/about" className="nav-links">
                             About Us
                         </NavLink>{" "}
+                        {/* <hr></hr> */}
                     </li>
 
                     <li className="nav-item">
                         <NavLink to="/service" className="nav-links">
                             Service
                         </NavLink>{" "}
+                        {/* <hr></hr> */}
                     </li>
                     <li className="nav-item">
                         <NavLink to="/gallary" className="nav-links">
                             Gallery
                         </NavLink>{" "}
+                        {/* <hr></hr> */}
                     </li>
                     <li className="nav-item">
                         <NavLink to="/contact" className="nav-links">
                             Contact Us
                         </NavLink>{" "}
+                        {/* <hr></hr> */}
                     </li>
                 </ul>
-                <div className="navbar-left-icons">
-                    <img src={calling} alt="logo" className="call-icon" /> <p style={{ color: "white", margin:"auto" }}>+ (111) 1000-500-800</p>
-                </div>
+                {/* <div className="navbar-left-icons">
+                    <img src={calling} alt="logo" className="call-icon" /> <p style={{ color: "black", margin:"auto" }}>+ (111) 1000-500-800</p>
+                </div> */}
                 <div className="download-button">
                     <p>Download App</p>
                     <img src={download} alt="logo" className="download-icon" /> 

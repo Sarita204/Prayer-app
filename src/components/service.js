@@ -23,9 +23,9 @@ function Service() {
                 <div className="service-card-container" >
                     <div className="service-cards">
                         <div className="card" style={{ width: "20rem", margin: "10px", height: "380px" }}>
+                        <h5 className="card-title">CAR POOJA</h5>
                             <img src={carpuja} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Car Pooja</h5>
                                 <div className="layer">
                                     <h3>
                                         <p className="description">Description</p>
@@ -35,15 +35,16 @@ function Service() {
                                     </h5>
 
                                     <h4>
-                                        <a href="/" className="read-more">Read More...</a>
+                                        <a href="/cardetails" className="read-more">Read More...</a>
                                     </h4>
                                 </div>
                             </div>
                         </div>
-                        <div className="card" style={{ width: "20rem", margin: "10px", height: "380px" }}>
+                        <div className="card" style={{ width: "20rem", margin: "10px", height: "380px" }}> 
+                        <h5 className="card-title">BHOOMI POOJA</h5>     
                             <img src={landpuja} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Bhoomi Pooja</h5>
+                                
                                 <div className="layer">
                                     <h3>
                                         <p className="description">Description</p>
@@ -53,15 +54,15 @@ function Service() {
                                     </h5>
 
                                     <h4>
-                                        <a href="/" className="read-more">Read More...</a>
+                                        <a href="/bhoomidetails" className="read-more">Read More...</a>
                                     </h4>
                                 </div>
                             </div>
                         </div>
                         <div className="card" style={{ width: "20rem", margin: "10px", height: "380px" }}>
+                        <h5 className="card-title">PRASADA</h5>
                             <img src={prasada} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Prasada</h5>
                                 <div className="layer">
                                     <h3>
                                         <p className="description">Description</p>
@@ -71,7 +72,7 @@ function Service() {
                                     </h5>
 
                                     <h4>
-                                        <a href="/" className="read-more">Read More...</a>
+                                        <a href="/prasadadetails" className="read-more">Read More...</a>
                                     </h4>
                                 </div>
                             </div>
@@ -80,9 +81,9 @@ function Service() {
 
                     <div className="service-cards">
                         <div className="card" style={{ width: "20rem", margin: "10px", height: "380px" }}>
+                        <h5 className="card-title">MARRIAGE</h5>
                             <img src={marriage} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Marriage</h5>
                                 <div className="layer">
                                     <h3>
                                         <p className="description">Description</p>
@@ -92,15 +93,15 @@ function Service() {
                                     </h5>
 
                                     <h4>
-                                        <a href="/" className="read-more">Read More...</a>
+                                        <a href="/marriagedetails" className="read-more">Read More...</a>
                                     </h4>
                                 </div>
                             </div>
                         </div>
                         <div className="card" style={{ width: "20rem", margin: "10px", height: "380px" }}>
+                        <h5 className="card-title">DHARSON</h5>
                             <img src={dharson} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Dharson</h5>
                                 <div className="layer">
                                     <h3>
                                         <p className="description">Description</p>
@@ -110,15 +111,15 @@ function Service() {
                                     </h5>
 
                                     <h4>
-                                        <a href="/" className="read-more">Read More...</a>
+                                        <a href="/dharsondetails" className="read-more">Read More...</a>
                                     </h4>
                                 </div>
                             </div>
                         </div>
                         <div className="card" style={{ width: "20rem", margin: "10px", height: "380px" }}>
+                        <h5 className="card-title">POOJA</h5>
                             <img src={pooja} className="card-img-top" alt="..." />
                             <div className="card-body">
-                                <h5 className="card-title">Car Pooja</h5>
                                 <div className="layer">
                                     <h3>
                                         <p className="description">Description</p>
@@ -128,7 +129,7 @@ function Service() {
                                     </h5>
 
                                     <h4>
-                                        <a href="/" className="read-more">Read More...</a>
+                                        <a href="/poojadetails" className="read-more">Read More...</a>
                                     </h4>
                                 </div>
                             </div>

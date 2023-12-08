@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/home.css";
 import aboutimg1 from "../images/aboutimg1.png";
 import aboutimg2 from "../images/aboutimg2.png";
 import aboutimg3 from "../images/aboutimg3.png";
@@ -14,7 +15,7 @@ import g8 from "../images/g8.png"
 import g9 from "../images/g9.png"
 import g10 from "../images/g10.png"
 import g11 from "../images/g11.png"
-import g12 from "../images/g12.png"
+import g12 from "../images/g12.png";
 
 function Gallary() {
     return (
@@ -72,6 +73,7 @@ function Gallary() {
                     <img src={g12} className="card-img-top" alt="..." />
                 </div>
             </div>
+        
         </div>
     );
 }

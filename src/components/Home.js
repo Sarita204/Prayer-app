@@ -11,6 +11,16 @@ import img1 from "../images/img1.png";
 import img2 from "../images/img2.png";
 import img3 from "../images/img3.png";
 import vedio from "../images/pooja.mp4";
+
+import carpuja1 from "../images/carpuja1.png"
+import prasada1 from "../images/prasada1.png"
+import marriage1 from "../images/marriage1.png"
+import dharson1 from "../images/dharson1.png"
+import pooja1 from "../images/pooja1.png"
+import bhoomipooja1 from "../images/bhumi_puja_2.png";
+import Carousel from 'react-bootstrap/Carousel';
+
+
 function Home() {
     return (
         <div className="banner-component">
@@ -192,64 +202,90 @@ function Home() {
                 </div>
 
                 <div className="service-card-container" >
-                    <div className="service-cards" style={{ paddingBottom: "30PX" }}>
+                    {/* <div className="service-cards" style={{ paddingBottom: "30PX" }}>
                         <div className="card" style={{ width: "16rem ", margin: "10px", height: "300px" }}>
                             <h5 className="card-title">Car Pooja</h5>
                             <img src={carpuja} className="card-img-top" alt="..." />
-                            {/* <div className="card-body">
-                                <div className="layer">
-                                    <h3>
-                                        <p className="description">Description</p>
-                                    </h3>
-                                    <h5>
-                                        <p className="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    </h5>
-                                </div>
-                            </div> */}
                         </div>
                         <div className="card" style={{ width: "16rem", margin: "10px", height: "300px" }}>
                             <h5 className="card-title">Bhoomi Pooja</h5>
                             <img src={landpuja} className="card-img-top" alt="..." />
-                            {/* <div className="card-body">
-                                <div className="layer">
-                                    <h3>
-                                        <p className="description">Description</p>
-                                    </h3>
-                                    <h5>
-                                        <p className="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    </h5>
-                                </div>
-                            </div> */}
                         </div>
                         <div className="card" style={{ width: "16rem", margin: "10px", height: "300px" }}>
                             <h5 className="card-title">Marriage</h5>
                             <img src={marriage} className="card-img-top" alt="..." />
-                            {/* <div className="card-body">
-                                <div className="layer">
-                                    <h3>
-                                        <p className="description">Description</p>
-                                    </h3>
-                                    <h5>
-                                        <p className="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    </h5>
-                                </div>
-                            </div> */}
                         </div>
                         <div className="card" style={{ width: "16rem", margin: "10px", height: "300px" }}>
                             <h5 className="card-title">Prasada</h5>
                             <img src={prasada} className="card-img-top" alt="..." />
-                            {/* <div className="card-body">
-                                <div className="layer">
-                                    <h3>
-                                        <p className="description">Description</p>
-                                    </h3>
-                                    <h5>
-                                        <p className="details">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                                    </h5>
-                                </div>
-                            </div> */}
                         </div>
-                    </div>
+                    </div> */}
+
+<div className="slider-component">
+            <Carousel data-bs-theme="dark">
+      <Carousel.Item>
+        <img
+          className="d-block-w-10"
+          src={carpuja1}
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h5>CAR POOJA</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block-w-10"
+          src={bhoomipooja1}
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <h5>BHOOMI POOJA</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block-w-10"
+          src={prasada1}
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h5>PRASADA</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block-w-10"
+          src={marriage1}
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h5>MARRIAGE</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block-w-10"
+          src={dharson1}
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h5>DHARSON</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block-w-10"
+          src={pooja1}
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <h5>POOJA</h5>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+        </div>
+
             </div>
             </div>
                     {/* vedio section */}
