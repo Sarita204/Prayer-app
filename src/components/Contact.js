@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/contact.css";
-import contactbanner from "../images/contactbanner.png";
+import aboutbanner from "../images/aboutbanner.png";
 import fb from "../images/fb.png";
 import instagram from "../images/insta.png";
 import twitter from "../images/twitter.png";
@@ -11,7 +11,7 @@ function Contact() {
     return (
         <div>
             <div className="banner-logo-section" >
-                <img src={contactbanner} alt="logo" className="banner-logo" />
+                <img src={aboutbanner} alt="logo" className="banner-logo" />
                 <p className="banner-first-title">CONTACT</p>
                 <h2 className="banner-main-title">GET IN TOUCH WITH WEBSITE</h2>
             </div>

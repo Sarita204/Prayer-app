@@ -3,7 +3,7 @@ import "../styles/home.css";
 import aboutimg1 from "../images/aboutimg1.png";
 import aboutimg2 from "../images/aboutimg2.png";
 import aboutimg3 from "../images/aboutimg3.png";
-import gallarybanner from "../images/gallarybanner.png";
+import aboutbanner from "../images/aboutbanner.png";
 import g1 from "../images/g1.png"
 import g2 from "../images/g2.png"
 import g3 from "../images/g3.png"
@@ -21,7 +21,7 @@ function Gallary() {
     return (
         <div>
             <div className="banner-logo-section" >
-                <img src={gallarybanner} alt="logo" className="banner-logo" />
+                <img src={aboutbanner} alt="logo" className="banner-logo" />
                 <p className="banner-first-title">GALLERY</p>
                 <h2 className="banner-main-title">OUR PRAYER GALLERY</h2>
             </div>

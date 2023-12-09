@@ -1,5 +1,5 @@
 import React from "react"
-import servicebanner from "../images/servicebanner.png";
+import aboutbanner from "../images/aboutbanner.png";
 import carpuja from "../images/carpuja.png";
 import landpuja from "../images/landpuja.png";
 import prasada from "../images/prasada.png";
@@ -10,7 +10,7 @@ function Service() {
     return (
         <div>
             <div className="banner-logo-section">
-                <img src={servicebanner} alt="logo" className="banner-logo" />
+                <img src={aboutbanner} alt="logo" className="banner-logo" />
                 <p className="banner-first-title">SERVICES</p>
                 <h2 className="banner-main-title">A ASTROLOGER WITH RELEVANT SERVICES</h2>
             </div>
